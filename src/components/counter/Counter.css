@@ -1,0 +1,40 @@
+/* const buttonStyle= {
+    fontSize:"30px",
+    backgroundColor: "#00a5ab",
+    width: "100px",
+    color: "white",
+    padding: "15px",
+    borderRadius: "30px"
+}  */
+body{
+    padding: 10px;
+}
+button{
+    font-size: 20px;
+    width: 100px;
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 4px;
+    cursor: pointer;
+}
+
+.resetButton{
+    background-color:  #824f8c;
+}
+
+.counterButton{
+    background-color:  #00a5ab;
+}
+
+.count{
+    font-size: 50px;
+    padding: 30px;
+}
+
+.totalCount{
+    color: red;
+    font-size: 120px;
+}
