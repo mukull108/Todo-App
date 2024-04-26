@@ -18,4 +18,4 @@ export const updateTodoApi =
     (username,id,todo) => apiClient.put(`/users/${username}/todos/${id}`, todo)
 
 export const createTodoApi = 
-    (username,todo) => apiClient.put(`/users/${username}/todos`, todo)
+    (username,todo) => apiClient.put(`/users/${username}/todos`, todo) 
